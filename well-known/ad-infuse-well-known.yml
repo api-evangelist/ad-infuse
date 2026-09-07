@@ -1,0 +1,45 @@
+generated: '2026-09-06'
+method: probed
+source: >-
+  Direct HTTPS probes of the company's historical domain (adinfuse.com, www.adinfuse.com)
+  on 2026-09-06. No API baseURL, OpenAPI servers[] host or docs host exists for this company
+  — Ad Infuse was acquired by Velti in 2009 and is closed.
+note: >-
+  Every probe returned a connection timeout (recorded as status 0 — no HTTP response was ever
+  received, so there is no status code to record). adinfuse.com resolves to Cloudflare
+  nameservers under a 2020 re-registration by an unrelated party and serves nothing. Because
+  nothing returned a 200 carrying a real document, NO WellKnown or SecurityTxt pointer is
+  emitted in apis.yml — this file records an absence, not a presence.
+hosts:
+  - host: adinfuse.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 0
+      - path: /.well-known/openid-configuration
+        status: 0
+      - path: /.well-known/oauth-authorization-server
+        status: 0
+      - path: /.well-known/api-catalog
+        status: 0
+      - path: /.well-known/ai-plugin.json
+        status: 0
+      - path: /.well-known/agent-card.json
+        status: 0
+      - path: /.well-known/agent.json
+        status: 0
+  - host: www.adinfuse.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 0
+      - path: /.well-known/openid-configuration
+        status: 0
+      - path: /.well-known/oauth-authorization-server
+        status: 0
+      - path: /.well-known/api-catalog
+        status: 0
+      - path: /.well-known/ai-plugin.json
+        status: 0
+      - path: /.well-known/agent-card.json
+        status: 0
+      - path: /.well-known/agent.json
+        status: 0

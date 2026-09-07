@@ -64,5 +64,6 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ad Infuse is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Ad Infuse was a San Francisco mobile advertising technology company, founded in 2005, that dynamically inserted targeted mobile ads at the moment of content delivery using carrier subscriber demographic and behavioral data. It raised roughly $18M in venture funding, sold to operators and brands including Orange, France Telecom and Procter & Gamble, and was acquired by mobile marketing firm Velti in May 2009. Velti itself collapsed in 2013 and sold its US, UK and India mobile marketing businesses to affiliates of Blackstone's GSO Capital Partners.
+
+The company is recorded as closed. No successor developer program carries the Ad Infuse brand, and the historical `adinfuse.com` domain was re-registered by an unrelated party in April 2020 and serves no content — every HTTPS request to it (root, `/llms.txt`, `/openapi.json`, and each `/.well-known/` discovery path probed on 2026-09-06) times out with no response. See `well-known/ad-infuse-well-known.yml` for the recorded probe, and the `x-coverage` block in `apis.yml` for why this profile is thin.
