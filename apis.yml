@@ -1,14 +1,13 @@
 aid: ad-infuse
 name: Ad Infuse
-description: 'Ad Infuse was a San Francisco mobile advertising technology company, founded
-  in 2005, that dynamically inserted targeted mobile ads at the moment of content delivery
-  using carrier subscriber demographic and behavioral data, selling to operators and brands
-  including Orange, France Telecom and Procter & Gamble. It raised roughly $18M in venture
-  funding and was acquired by mobile marketing firm Velti in May 2009; Velti itself collapsed
-  in 2013 and sold its US, UK and India mobile marketing businesses to affiliates of Blackstone''s
-  GSO Capital Partners. The company is recorded as closed, no successor developer program
-  carries the Ad Infuse brand, and its adinfuse.com domain was re-registered by an unrelated
-  party in 2020 and serves no content.'
+description: Ad Infuse was a San Francisco mobile advertising technology company, founded in 2005, that
+  dynamically inserted targeted mobile ads at the moment of content delivery using carrier subscriber
+  demographic and behavioral data, selling to operators and brands including Orange, France Telecom and
+  Procter & Gamble. It raised roughly $18M in venture funding and was acquired by mobile marketing firm
+  Velti in May 2009; Velti itself collapsed in 2013 and sold its US, UK and India mobile marketing businesses
+  to affiliates of Blackstone's GSO Capital Partners. The company is recorded as closed, no successor
+  developer program carries the Ad Infuse brand, and its adinfuse.com domain was re-registered by an unrelated
+  party in 2020 and serves no content.
 url: https://raw.githubusercontent.com/api-evangelist/ad-infuse/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -17,7 +16,7 @@ x-tier: stub
 x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-09-06'
-modified: '2026-09-06'
+modified: '2026-09-15'
 tags:
 - Company
 - Advertising
@@ -42,18 +41,18 @@ x-enrichment:
 x-coverage:
   state: none
   reason: defunct
-  detail: >-
-    Ad Infuse was acquired by Velti in May 2009 and is recorded as closed; its adinfuse.com
-    domain was re-registered by an unrelated party in April 2020, resolves to Cloudflare
-    nameservers and every HTTPS request to it — root, /llms.txt, /openapi.json and all five
-    /.well-known/ discovery paths — times out with no response at all.
+  detail: Ad Infuse was acquired by Velti in May 2009 and is recorded as closed; its adinfuse.com domain
+    was re-registered by an unrelated party in April 2020, resolves to Cloudflare nameservers and every
+    HTTPS request to it — root, /llms.txt, /openapi.json and all five /.well-known/ discovery paths —
+    times out with no response at all.
   evidence:
-    - url: https://adinfuse.com/
-      status: 0
-    - url: https://adinfuse.com/.well-known/agent-card.json
-      status: 0
-    - url: https://www.adinfuse.com/.well-known/security.txt
-      status: 0
-    - url: http://ad-infuse.com/
-      status: 200
+  - url: https://adinfuse.com/
+    status: 0
+  - url: https://adinfuse.com/.well-known/agent-card.json
+    status: 0
+  - url: https://www.adinfuse.com/.well-known/security.txt
+    status: 0
+  - url: http://ad-infuse.com/
+    status: 200
   checked: '2026-09-06'
+x-status: defunct
