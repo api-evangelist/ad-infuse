@@ -64,6 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ad Infuse was a San Francisco mobile advertising technology company, founded in 2005, that dynamically inserted targeted mobile ads at the moment of content delivery using carrier subscriber demographic and behavioral data. It raised roughly $18M in venture funding, sold to operators and brands including Orange, France Telecom and Procter & Gamble, and was acquired by mobile marketing firm Velti in May 2009. Velti itself collapsed in 2013 and sold its US, UK and India mobile marketing businesses to affiliates of Blackstone's GSO Capital Partners.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-The company is recorded as closed. No successor developer program carries the Ad Infuse brand, and the historical `adinfuse.com` domain was re-registered by an unrelated party in April 2020 and serves no content — every HTTPS request to it (root, `/llms.txt`, `/openapi.json`, and each `/.well-known/` discovery path probed on 2026-09-06) times out with no response. See `well-known/ad-infuse-well-known.yml` for the recorded probe, and the `x-coverage` block in `apis.yml` for why this profile is thin.
+Ad Infuse was a San Francisco mobile advertising technology company, founded in 2005, that dynamically inserted targeted mobile ads at the moment of content delivery using carrier subscriber demographic and behavioral data, selling to operators and brands including Orange, France Telecom and Procter & Gamble. It raised roughly $18M in venture funding and was acquired by mobile marketing firm Velti in May 2009; Velti itself collapsed in 2013 and sold its US, UK and India mobile marketing businesses to affiliates of Blackstone's GSO Capital Partners. The company is recorded as closed, no successor developer program carries the Ad Infuse brand, and its adinfuse.com domain was re-registered by an unrelated party in 2020 and serves no content.
+
+**Areas:** Company · Advertising · Mobile · Mobile Advertising · AdTech · Marketing · Defunct · Acquired
+
+## Ad Infuse on APIs.io (historical record)
+
+Everything profiled for Ad Infuse is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ad-infuse/](https://apis.io/providers/ad-infuse/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ad Infuse: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ad-infuse/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
